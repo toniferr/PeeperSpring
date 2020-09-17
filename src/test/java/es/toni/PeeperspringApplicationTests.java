@@ -7,9 +7,9 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SpringmvcApplication.class)
+@SpringApplicationConfiguration(classes = PeeperspringApplication.class)
 @WebAppConfiguration
-public class SpringmvcApplicationTests {
+public class PeeperspringApplicationTests {
 
 	@Test
 	public void contextLoads() {
