@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class PeeperspringApplication {
+public class PeeperSpringApplication {
 
     public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(PeeperspringApplication.class, args);
+        ApplicationContext ctx = SpringApplication.run(PeeperSpringApplication.class, args);
 
 //        for (String name : ctx.getBeanDefinitionNames()){
 //            System.out.println(name);
