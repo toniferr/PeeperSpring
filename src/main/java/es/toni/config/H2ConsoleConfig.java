@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class H2ConsoleConfig {
-	
     @Bean
     public ServletRegistrationBean h2Console() {
         String path = "/h2-console";

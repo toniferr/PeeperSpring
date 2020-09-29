@@ -1,13 +1,12 @@
 package es.toni.services.security;
 
-import java.util.List;
-
+import es.toni.domain.User;
+import es.toni.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import es.toni.domain.User;
-import es.toni.services.UserService;
+import java.util.List;
 
 @Service
 public class LoginServiceImpl implements LoginService {
@@ -34,7 +33,5 @@ public class LoginServiceImpl implements LoginService {
                 userService.saveOrUpdate(user);
             }
         });
-
     }
-
 }

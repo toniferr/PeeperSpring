@@ -1,5 +1,6 @@
 package es.toni.config;
 
+import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
@@ -7,10 +8,6 @@ import org.thymeleaf.spring4.SpringTemplateEngine;
 import org.thymeleaf.spring4.resourceresolver.SpringResourceResourceResolver;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 import org.thymeleaf.templateresolver.TemplateResolver;
-
-import nz.net.ultraq.thymeleaf.LayoutDialect;
-
-// org.springframework.boot.autoconfigure.thymeleaf
 
 @Configuration
 public class ThymeleafConf {
